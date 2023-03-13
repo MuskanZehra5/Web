@@ -1,0 +1,26 @@
+.item-price input
+{
+    border:none;
+}
+
+.btn
+{
+    color:black;
+    padding: 14px 28px;
+    margin:1%;
+}
+
+.mycart
+{
+    font-size: large;
+}
+
+
+.close {
+    cursor: pointer;
+    margin-top:25%;
+    padding:4px 8px;
+    transform: translate(0%, -50%);
+  }
+  
+  .close:hover {background: red;}

@@ -1,0 +1,35 @@
+.container{
+    margin:4%
+}
+
+.numbers
+{
+    background-color:aqua;
+    margin:4%;
+    padding:4%;
+}
+
+#box1,#box2,#box3{
+    background-color: black;
+    color:white;
+    width: 50px;
+    height: 100px;
+    font-size: large;
+    text-align: center;
+    text-shadow: 10px;
+
+}
+
+.game{
+    padding:2%;
+}
+
+input [button]{
+    background-color: aquamarine;
+}
+
+img{
+    width:100px;
+    display: none;
+    height:auto;
+}

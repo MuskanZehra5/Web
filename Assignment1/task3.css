@@ -1,0 +1,358 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, serif;
+}
+.header-top{
+    margin:0;
+    min-height: 2rem;
+    background-color: #F9AF24;
+    color:white;
+}
+
+.container
+{
+    min-width: 992px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left:5%;
+    margin-right:5%;
+    
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li 
+{
+    display: inline;
+}
+a{
+ color: white;   
+ text-decoration: none;
+}
+
+.li1:hover, .li2:hover, .li3:hover, .li4:hover, .amyacc:hover
+{
+    color:black
+}
+a:hover
+{
+  color: black;
+}
+
+.items-left
+{
+    float: left;
+}
+.items-right
+{
+    float: right;
+}
+@media screen and (max-width:900px)
+{
+  .items-right
+  {
+    padding-left: 10%;
+    float:left;
+  }
+}
+
+/* mid mid header */
+
+.mid-container
+{
+
+    display: flex;
+    
+}
+.mid-left
+{
+    float: left;
+    min-width:30rem;
+    padding-left: 2%;
+    
+}
+.logo
+{
+    padding:3% 25%;
+}
+
+.mid-mid
+{
+    padding-top: 3%;
+    padding-bottom: 5%;
+    width:50%;
+    padding-left: 2%;
+    position: relative;
+    float: left;
+}
+.search{
+position: relative;
+width:100%;
+
+}
+.bi-search
+{
+    border: none;
+    color: white;
+    background-color: #41B449;
+
+}
+input
+{
+    background-color: #41B449;
+    /* width:14rem; */
+    width:100%;
+    height:40px;
+    padding-left: 10%;
+    border: none;
+    color:white;
+}
+
+input::placeholder
+{
+    color:white;
+}
+.text
+{
+    
+    float: left;
+    width:50%;
+}
+
+.category
+{
+    background-color: #41B449;
+    float: left;
+    width:40%;
+   
+
+}
+
+.category select
+{
+    color:white;
+    width:100%;
+    height:40px;
+    background-color: #F9AF24;
+    border:none;
+}
+
+
+.search-btn button
+{
+    /* min-width: 3rem; */
+    min-width: 100%;
+    height:40px;
+}
+.search-btn
+{
+    float:left;
+    width:10%;
+}
+
+.mid-right
+{
+    padding-top: 2.5%;
+    margin-left: 5%;
+    min-width: 3rem;
+    min-height: 5rem;
+    float:right;
+}
+ 
+@media screen and (max-width: 700px) {
+  .mid-right {
+    margin-right: 2%;
+  }
+}
+.round
+{
+    padding:12px;
+    background-color: #F9AF24;
+    min-width: 2rem;
+    min-height: 2rem;
+    border-radius: 100%;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-more {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .menu-list {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .mid-left {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .category {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .text {
+      width: 90%;
+      height: 2%;
+      float: inherit;
+    }
+  }
+
+
+  @media screen and (max-width: 700px) {
+    .mid-mid {
+      width: 100%;
+    }
+  }
+
+
+.bottom-header{
+    position:sticky;  
+    margin-top: 0;
+}
+.bottom-container
+{
+    background-color: #41B449;
+    height: 3rem;
+    padding:0% 0% 0% 10%;
+
+}
+.hehe-more
+{
+  display: none;
+}
+@media screen and (max-width: 700px) {
+  .hehe-more {
+    display: flex;
+    padding-top: 2%;
+  }
+}
+
+.menu-more
+{
+    float: left;
+    width:5%;
+    height:100%;
+    text-align: left;
+    position: relative;
+    padding-left: 1%;
+    background-color: black;
+    color:white;
+    
+}
+
+
+.menu-list
+{
+    padding-top: 1%;
+    height:100%;
+    position: relative;
+    float: left;
+    width:70%;
+    background-color: #F9AF24;
+    color: white;
+}
+
+.menu-list a
+{
+    margin: 0% 1%;
+    text-align: center;
+}
+
+.main-body
+{
+    background-color:#F9AF24;
+    margin:0% 10% 5% 10%;
+}
+
+.images
+{
+    display: flex;
+}
+
+.main-img
+{
+    flex:75%;
+
+}
+.side-images
+{
+    width:100%;
+    flex:25%;
+}
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    max-width: 100%;
+    padding: 0;
+  }
+  
+  .column img {
+    margin: 0;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .side-images{
+      display: none;
+    }
+  }
+
+/* last waly footer k liye */
+  @media screen and (min-width: 1000px) {
+    .footer-div
+    {
+      display: none;
+    }
+  }
+
+  .footer-div
+  {
+    margin:5% 10% 0% 10%;
+    padding:1%;
+    background-color: #f6f6f6;
+    border: 1px solid #e1e1e1;
+    text-align: center;
+  }
+
+  .footer-div h4
+  {
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .footer-div p
+  { 
+    color: #333;
+  }
+
+  .icon{
+    margin-top: 5%;
+    margin-left: 5%;
+
+    display: flex;
+    flex:left;
+  }
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
